@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>Bilibili辅助签到器</title>
+      <link href="/2023/03/17/BilibiliAutoSign/"/>
+      <url>/2023/03/17/BilibiliAutoSign/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Bilibili辅助签到器"><a href="#Bilibili辅助签到器" class="headerlink" title="Bilibili辅助签到器"></a>Bilibili辅助签到器</h1><pre><code>根据Bilibili电脑网页版中使用的API模拟用户请求完成签到，观看，分享，分享每天做多可获得 65 经验</code></pre><h1 id="已知Bug"><a href="#已知Bug" class="headerlink" title="已知Bug"></a>已知Bug</h1><pre><code>模拟分享可能无法成功，导致获取经验统计错误   以及丢失 5 经验升级剩余天数技术有误，仅供娱乐一天重复启动，导致直播签到失败，以及报错</code></pre><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>前往<a href="https://github.com/xiaowine/Bilibili_AutoSign/releases">Releases</a>下载bilibili.zip，解压并双击运行 bilibili.exe 即可</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Bilibili </tag>
+            
+            <tag> Python </tag>
+            
+            <tag> 爬虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Alist</title>
       <link href="/2023/03/13/Alist/"/>
       <url>/2023/03/13/Alist/</url>
