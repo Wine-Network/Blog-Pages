@@ -1,0 +1,37 @@
+:root {
+    --trans-light: rgba(255, 255, 255, 0.58);
+    --trans-dark: rgba(25, 25, 25, 0.58);
+    --border-style: 1px solid rgb(169, 169, 169);
+    --backdrop-filter: blur(5px) saturate(150%);
+}
+
+/* 个人信息卡片背景图 */
+#aside-content > .card-widget.card-info {
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+
+[data-theme="light"] #aside-content > .card-widget.card-info {
+    background-image: url(https://sourcebucket.s3.ladydaily.com/img/snowflower.webp);
+}
+
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+    background-image: url(https://sourcebucket.s3.ladydaily.com/img/aurora.webp);
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+    background: var(--trans-light);
+    backdrop-filter: var(--backdrop-filter);
+    border-radius: 25px;
+    border: var(--border-style);
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+    background: var(--trans-light);
+    backdrop-filter: var(--backdrop-filter);
+    border-radius: 18px;
+    border: var(--border-style);
+}
